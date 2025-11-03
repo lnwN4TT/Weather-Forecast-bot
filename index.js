@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   database: "weather_schema",
-  password: "natdanai0264"
+  password: ""
 });
 
 connection.connect((err) => {
